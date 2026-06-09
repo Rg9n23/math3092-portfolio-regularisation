@@ -1,0 +1,36 @@
+# OS / editor / R / build cruft
+.DS_Store
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.tmp
+pipeline_run.log
+__pycache__/
+
+# This repo publishes only the R pipeline, README, and the compiled report PDF.
+# Everything below is a local working file and is intentionally not tracked.
+
+# Data, generated figures, and result tables
+data/
+figs/
+figs_slides/
+outputs/
+
+# Planning notes, prep material, and presentation sources
+docs/
+*.pptx
+QA_study_sheet.*
+build_deck.py
+
+# Markdown working files (keep only the README)
+*.md
+!README.md
+
+# Report: publish the compiled PDF only; LaTeX sources are working files
+Report/*
+!Report/main.pdf
+
+# Other-module coursework and backups (literal bracketed directory names)
+[[]00] Semester 1/
+[[]99] Archive/
