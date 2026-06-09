@@ -11,8 +11,7 @@ __pycache__/
 # This repo publishes only the R pipeline, README, and the compiled report PDF.
 # Everything below is a local working file and is intentionally not tracked.
 
-# Data, generated figures, and result tables
-data/
+# Generated figures and result tables (datasets ARE tracked)
 figs/
 figs_slides/
 outputs/

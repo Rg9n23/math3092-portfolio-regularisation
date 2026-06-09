@@ -45,4 +45,10 @@ source("main.R")
 ```
 
 Requires R with packages: glmnet, rpart, rpart.plot, ranger, pdp, readr.
-Datasets should be placed in `data/`.
+The datasets are included in `data/`, so the pipeline runs out of the box.
+
+## Data sources
+
+All datasets are from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/):
+Concrete Compressive Strength, Airfoil Self-Noise, Bike Sharing, Communities and
+Crime, Energy Efficiency, Superconductivity, and Wine Quality (red).
